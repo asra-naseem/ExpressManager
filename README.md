@@ -28,3 +28,49 @@ A step-by-step series of examples that tell you how to get a development environ
 1. Clone the repository to your local machine:
    ```sh
    git clone https://github.com/your-username/ExpressUserManager.git
+
+### Navigate to the project directory:
+
+```sh
+cd ExpressUserManager
+```
+
+### Install NPM packages:
+
+```sh
+npm install
+```
+
+### Start the server:
+
+```sh
+npm start
+```
+
+The server should be running on [http://localhost:8000](http://localhost:8000).
+
+## Usage
+
+The API supports the following endpoints:
+
+- `GET /api/users`: Retrieve all users.
+- `GET /api/user/:id`: Retrieve a user by ID.
+- `POST /api/users`: Create a new user.
+- `PATCH /api/users/:id`: Update a user's information.
+- `DELETE /api/users/:id`: Delete a user.
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+- Node.js community
+- Express.js team
+```
+
+This Markdown file includes instructions for getting started, usage information, and links to the contributing guidelines and license information. You can customize and expand this README file to suit the specific needs of your project.
